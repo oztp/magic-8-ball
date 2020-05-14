@@ -4,37 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <TextView
+        android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="bola 8 magica"
         android:layout_gravity="center"
-        android:textSize="24sp"
         android:layout_marginTop="24dp"
-        android:textColor="#BDB76B"
-        android:textStyle="bold"/>
+        android:text="diabolicis, fata"
+        android:textColor="#750000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
 
     <ImageView
         android:id="@+id/boton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="336dp"
+        android:layout_height="236dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        app:srcCompat="@drawable/ball" />
+        app:srcCompat="@drawable/pentbapho1" />
 
     <TextView
         android:id="@+id/respuesta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="..."
         android:layout_gravity="center"
-        android:textSize="30sp"
         android:layout_marginTop="50dp"
-        android:textColor="#BDB76B"
-        android:textStyle="bold"/>
+        android:text="aqui aguarda tu destino"
+        android:textColor="#3B3030"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/hoguerarec" />
 
 
 </LinearLayout>
